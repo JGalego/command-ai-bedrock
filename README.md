@@ -4,6 +4,8 @@
 
 A Zsh plugin that uses [Amazon Bedrock](https://aws.amazon.com/bedrock/) to analyze command execution and provide instant AI-powered feedback when commands fail or produce unexpected results.
 
+> 🙌 This project was adapted from [Sean Smith](https://github.com/sean-smith)'s [Command AI Assistant](https://github.com/sean-smith/command-ai) powered by [Ollama](https://ollama.com/).
+
 ![](plugin.png)
 
 ## Features ⚙️
