@@ -43,7 +43,7 @@ precmd() {
             # Capture both stdout and stderr
             local OUTPUT=$(eval "$LAST_COMMAND" 2>&1)
             echo $STATUS_SYMBOL $LAST_COMMAND
-            echo "\033[34m🧙‍♂️ AI Analysis:\033[0m"
+            echo "\033[34m🧙 AI Analysis:\033[0m"
             analyze_command "$LAST_COMMAND" "$EXIT_CODE" "$OUTPUT"
         fi
     fi
